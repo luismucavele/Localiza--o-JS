@@ -12,6 +12,6 @@ let erro = () => {
 }
 let loc = navigator.geolocation.watchPosition(sucesso, erro);
 
-
+ 
 
 //navigator.geolocation.clearWatch(loc); // para de obter a localização
